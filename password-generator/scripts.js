@@ -13,7 +13,7 @@ function generatePassword() {
 
     for (let i = 0; i <= passwordLength; i++) {
         let randomNumber = Math.floor(Math.random() * chars.length);
-        password += chars.substring(randomNumber, randomNumber + 1);
+        password += chars.charAt(randomNumber);
         console.log(randomNumber, password);
     }
     inputBtnElem.value = password;
