@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+
+    <div class="password-container">
+        <h2>Random Password Generator</h2>
+        <div class="password-box">
+
+            <input class="password-input" type="text" id="password" placeholder="Create password" readonly>
+            <i class="fa-regular fa-copy fa-2x copy-btn"></i>
+
+        </div>
+        <input class="generate-pwd-btn" type="button" value="Generate" id="generate-btn">
+    </div>
+
+    <div class="alert-container active">Password copied to clipboard</div>
 </body>
 <script src="scripts.js"></script>
+
 </html>
