@@ -66,9 +66,9 @@ body {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto; 
-    background-color: #f4fafe;
+    background-color: #fcf7f7;
 }
 
 h1,
@@ -143,43 +143,40 @@ span {
 .btn-primary:visited {
     color: #fff;
     background-color: #5c7cfa;
-    border-radius: 8px;
+    border: 1px solid #5c7cfa;
 }
 
 .btn-primary:hover,
 .btn-primary:active {
     color: #fff;
     background-color: #3b5bdb;
-    border: #3b5bdb;
+    border: 1px solid #3b5bdb;
 }
 
 .btn-secondary:link,
 .btn-secondary:visited {
     color: #fff;
     background-color: #845ef7;
-    border: #845ef7;
+    border: 1px solid #845ef7;
 }
 
 .btn-secondary:hover,
 .btn-secondary:active {
     color: #fff;
     background-color: #6741d9;
-    border: #845ef7;
+    border: 1px solid #6741d9;
 }
 
 .btn-primary-outline:link,
 .btn-primary-outline:visited {
     color: #5c7cfa;
-    border: 2px solid #5c7cfa;
-    background-color: transparent;
-    border-radius: 8px;
+    border: 1px solid #5c7cfa;
 }
 
 .btn-primary-outline:hover,
 .btn-primary-outline:active {
     color: #fff;
     background-color: #5c7cfa;
-    border: 2px solid #5c7cfa;
 }
 
 .highlight {
@@ -252,7 +249,8 @@ span {
 }
 
 .feature-img {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 }
 
 /* ---------CTA SECTION------- */
@@ -269,7 +267,7 @@ span {
 .cta-card {
     text-align: center;
     background-color: #5c7cfa;
-    width: 1000px;
+    max-width: 1000px;
     padding: 100px 200px;
     border-radius: 20px;
     margin: 0 auto;
