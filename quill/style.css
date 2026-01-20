@@ -1,0 +1,286 @@
+/* 
+
+---------- TYPOGRAPHY ----------
+
+FONT SIZES
+12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+
+FONT WEIGHTS
+400 / 700
+
+LINE HEIGHTS
+1.2 / 1.5
+
+LETTER SPACING
+0 / -2px
+
+FONT FAMILY
+Poppins
+
+---------- COLORS ----------
+
+PRIMARY
+Base: #339af0 (Sky Blue)
+Tint: #d0ebff (Arctic)
+Shade: #1c7ed6 (Deep Sea)
+
+SECONDARY
+Base: #9775fa (Lavendar)
+Tint: #e5dbff (Moonligh Iris)
+Shade: #7048e8 (Velvet Night)
+
+TERTIARY
+Base: #ff922b (Pumpkin)
+Tint: #ffe8cc (Dawn)
+Shade: #f76707 (Lava)
+
+GREY
+Base: #495057 (Slate)
+Tint: #f1f3f5 (Pebble)
+Shade: #212529 (Graphite)
+White: #ffffff (White)
+Black: #000000 (Black)
+
+---------- BORDER RADIUS ----------
+
+4px / 8px / 20px
+
+---------- SPACING SYSTEM ----------
+
+5px / 10px / 15px / 20px / 25px / 30px / 40px / 50px / 60px / 70px / 80px / 90px / 100px / 125px / 150px / 200px / 250px / 300px / 400px / 500px
+
+*/
+/* -----------------GLOBAL STYLES ---------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto; 
+    background-color: #f4fafe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -2px;
+    color: #212529;
+}
+
+
+
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+h4 {
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+h5 {
+    font-size: 24px;
+    letter-spacing: -2px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+span {
+    display: inline-block;
+}
+
+/* -----------------COMPONENTS---------------- */
+
+.btn {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.btn-primary:link,
+.btn-primary:visited {
+    color: #fff;
+    background-color: #5c7cfa;
+    border-radius: 8px;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    color: #fff;
+    background-color: #3b5bdb;
+    border: #3b5bdb;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+    color: #fff;
+    background-color: #845ef7;
+    border: #845ef7;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+    color: #fff;
+    background-color: #6741d9;
+    border: #845ef7;
+}
+
+.btn-primary-outline:link,
+.btn-primary-outline:visited {
+    color: #5c7cfa;
+    border: 2px solid #5c7cfa;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:active {
+    color: #fff;
+    background-color: #5c7cfa;
+    border: 2px solid #5c7cfa;
+}
+
+.highlight {
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.highlight-primary {
+    background-color: #5c7cfa;
+}
+
+.highlight-secondary{
+    background-color: #845ef7;
+}
+
+.highlight-tertiary {
+    background-color: #fd7e14;
+}
+
+.logo-md {
+    width: 100px;
+}
+
+.logo-sm {
+    width: 80px;
+}
+
+/* -----------------SECTIONS ---------------- */
+
+/* ---------NAVBAR------- */
+.navbar {
+    margin-bottom: 200px;
+}
+
+
+
+/* ---------HERO SECTION------- */
+
+.hero-section {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.hero-heading {
+    margin-bottom: 10px;
+}
+
+.hero-paragraph {
+    margin-bottom: 50px;
+}
+
+
+
+/* ---------FEATURE SECTION------- */
+
+.features-section {
+    /* text-align: center; */
+    margin-bottom: 300px;
+}
+
+
+.features-main-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.features-heading {
+    margin-bottom: 20px;
+}
+
+.feature-img {
+    width: 400px;
+}
+
+/* ---------CTA SECTION------- */
+
+.cta-section {
+    margin-bottom: 300px;
+}
+
+.cta-card-heading {
+    margin-bottom: 30px;
+  
+}
+
+.cta-card {
+    text-align: center;
+    background-color: #5c7cfa;
+    width: 1000px;
+    padding: 100px 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+/* ---------FOOTER------- */
+
+.footer {
+    text-align: center;
+}
+
+.social-icons {
+    width: 20px;
+}
