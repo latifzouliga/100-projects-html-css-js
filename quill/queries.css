@@ -1,0 +1,113 @@
+/* LG - Small laptops: 1024 - 1280px */
+
+@media(max-width: 72rem) {
+
+    /* 1150px / 16px = 72rem */
+    html {
+        /* 9px / 16px = 56.25% */
+        font-size: 56.25%;
+    }
+
+    .feature-grid-container {
+
+        column-gap: 3rem;
+    }
+
+    .cta-section {
+        margin-bottom: 20rem;
+
+    }
+}
+
+/* MD - Tablets: 768px - 1024px */
+@media(max-width: 51rem) {
+
+    /* 815px / 16px = 51rem */
+    html {
+        font-size: 50%;
+        /* 8px */
+    }
+}
+
+
+/* SM Phones - Landscape: 576px - 768px */
+
+@media(max-width:43rem) {
+
+    /* 680px / 16px = 43rem */
+    html {
+        font-size: 43.75%;
+        /* 7px */
+    }
+
+    .cta-card {
+        padding: 8rem 16rem;
+    }
+
+    .features-section {
+        margin-bottom: 20rem;
+
+    }
+
+    .feature-grid-container {
+        row-gap: 5rem;
+        column-gap: 0.5rem;
+    }
+
+    .features-heading {
+        letter-spacing: -1px;
+    }
+}
+
+/* SM Phones - Portrait:  less than 576px */
+
+@media(max-width: 34rem) {
+    /* 530px / 16px =  */
+
+    html {
+        font-size: 37.5%;
+        /* 6px */
+    }
+
+    .hero-section {
+        height: auto;
+    }
+
+
+    /* .hero-btn-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        width: 100%;  
+    }
+
+    
+    /* Make the button links full width
+    .hero-btn-container .btn {
+        display: block;  Important for anchor tags 
+        text-align: center;
+    } */
+
+     .feature-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* .features-heading {
+        letter-spacing: -1px;
+    } */
+
+    .feature-img-swap-order {
+        grid-row: auto;
+        grid-column: auto;
+
+    }
+
+    .cta-card {
+        padding: 8rem 6rem;
+    }
+
+    .hero-heading-break {
+        display: none;
+    }
+
+}
